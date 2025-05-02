@@ -4,19 +4,21 @@ const Background: React.FC = () => {
 
   return (
     <section id="background">
-      <h2> Satellite Constellations </h2>
+      <h2> Starlink and the Limits of Space Law </h2>
       <div style={{ display: "flex", alignItems: "flex-start", gap: "2rem" }}>
         <h4 style={{ flex: 1 }}>
-          Elon Musk’s Starlink project, launched by SpaceX, aims to create a global network of satellites to provide internet access, especially in under-covered areas. While the goal is ambitious and could greatly benefit remote regions, Starlink’s growing constellation, over 5,000 satellites as of early 2025, has raised significant concerns among astronomers, environmentalists, and regulators. The rapid deployment of private satellites highlights a legal and ethical gray area in space governance.
+          In May 2019, Elon Musk’s SpaceX launched 60 megaconstellations, part of a planned 12,000 satellites, also known as Starlink. These satellite constellations aim to provide internet access to rural and under-covered communities. By 2030, it is estimated that there will be more than 100,000 satellites orbiting near-Earth space. However, this rapid expansion has raised significant concerns among astronomers, environmentalists, and regulators, as the quick deployment of private satellites highlights a legal and ethical gray area in space governance.
           <div style={{ flex: 1 }}>
-          <h2> The Outer Space Treaty </h2>
-          <h4>
-          Currently, there are no binding international regulations that strictly govern private use of near-Earth space. The Outer Space Treaty of 1967, ratified by over 100 countries, establishes that outer space is the "province of all mankind" and prohibits any nation from claiming sovereignty over celestial bodies. However, it lacks enforcement mechanisms and does not clearly address commercial activity or satellite congestion. The Moon Agreement of 1979 attempted to extend the Outer Space Treaty’s principles, but it failed to gain traction, most spacefaring nations, including the U.S., did not sign it. This legal vacuum allows companies like SpaceX to operate with minimal oversight on satellite deployment.
-        </h4>
+          <p>Currently, there is little regulation of near-Earth space beyond the 1967 Outer Space Treaty, which only addresses how “exploration and use of outer space should be carried on for the benefit of all peoples.” Since it was originally designed to govern weapons and harmful interference, it didn’t anticipate the mass deployment of private satellites. Similarly, the Moon Agreement only covers how resources should be distributed, particularly considering the needs and interests of developing countries and those directly involved in obtaining those resources. However, three of the world’s leading space nations did not even sign it, which further highlights the lack of regulation. This allows companies like SpaceX to operate with minimal oversight on satellite deployment. </p>
       </div>
         </h4>
-        <div style={{ flex: 1 }}>
-          <SatelliteEmbed />
+        <div style={{ flex: 1, marginTop:"2em" }}>
+          <div>
+            <SatelliteEmbed />
+            <p style={{ textAlign: "center", marginTop: "1rem", fontWeight: "bold" , color: "#FFFFFF" }}>
+              Live satellite map of Starlink satellites
+            </p>
+          </div>
         </div>
       </div>
       

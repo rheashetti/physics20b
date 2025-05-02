@@ -60,9 +60,9 @@ function App() {
 
         <div className="top-nav-bar-links">
           <a href="#home" onClick={(e) => handleScroll(e, 'home')}>Home</a>
-          <a href="#background" onClick={(e) => handleScroll(e, 'background')}>Satellite Constellations</a>
-          <a href="#issue" onClick={(e) => handleScroll(e, 'issue')}>The Issue</a>
-          <a href="#conclusion" onClick={(e) => handleScroll(e, 'conclusion')}>Responses</a>
+          <a href="#background" onClick={(e) => handleScroll(e, 'background')}>Starlink and the Limits of Space Law</a>
+          <a href="#issue" onClick={(e) => handleScroll(e, 'issue')}>The Cost of Connectivity</a>
+          <a href="#conclusion" onClick={(e) => handleScroll(e, 'conclusion')}>The Push for Regulation</a>
         </div>
       </div>
       <div id="root">
@@ -72,8 +72,9 @@ function App() {
         <Conclusion />
       </div>
       <div className="footer">
-        </div>
         <p>© 2025 Rhea Shetti</p>
+      </div>
+        
     </>
   )
 }
