@@ -15,7 +15,7 @@ const Background: React.FC = () => {
         <div style={{ flex: 1, marginTop:"2em" }}>
           <div>
             <SatelliteEmbed />
-            <p style={{ textAlign: "center", marginTop: "1rem", fontWeight: "bold" , color: "#FFFFFF" }}>
+            <p style={{ textAlign: "center", marginTop: "1rem", fontWeight: "bold" , color: "#E6E6FA" }}>
               Live satellite map of Starlink satellites
             </p>
           </div>

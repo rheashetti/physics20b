@@ -12,8 +12,8 @@ const Issue : React.FC = () => {
                 <h4 style={{flex: 1}}> Another concern is the interference of these satellites with already existing astronomical infrastructure that serves to tell us more about space. Ground-based telescopes, like those in Chile or Hawaii, rely on precise imaging and long exposure times, both of which are disrupted by satellites streaking across their fields of view. In addition, since there are so many satellites orbiting near Earth, there is an increased risk of collisions with observational satellites. In fact, in 2019, the European Space Agency had to move one of their satellites to avoid a collision after SpaceX failed to respond to the issue. The lifespans of these satellites are also very short, only lasting about 3 to 4 years until they become space debris, posing even more collision risks for other satellites and future space launches. Radio telescopes also face interference, as Starlink and similar networks transmit in radio frequencies. This disrupts efforts to study the universe and monitor cosmic events, undermining decades of scientific exploration. </h4>
                 <div style={{ flex: 1 }}>
                     <img src={starlinkImage} style={{flex: 1, width: "100%", height: "auto", marginTop: "2em"}}/>
-                    <p style={{ textAlign: "center", marginTop: "1rem", fontWeight: "bold" , color: "#FFFFFF" }}>
-                        Image with Starlink interference
+                    <p style={{ textAlign: "center", marginTop: "1rem", fontWeight: "bold" , color: "#E6E6FA" }}>
+                        Satellite image with Starlink interference
                     </p>
                 </div>
             </div>

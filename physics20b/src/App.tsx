@@ -4,6 +4,8 @@ import Issue from './pages/issue'
 import Home from './pages/home'
 import Background from './pages/background'
 import Conclusion from './pages/conclusion'
+import Sources from './pages/sources'
+import Timeline from './pages/timeline'
 import { useEffect } from 'react';
 
 function App() {
@@ -70,6 +72,8 @@ function App() {
         <Background />
         <Issue />
         <Conclusion />
+        <Timeline />
+        <Sources />
       </div>
       <div className="footer">
         <p>© 2025 Rhea Shetti</p>
